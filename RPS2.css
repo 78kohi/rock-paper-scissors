@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    color: white;
+    background-color: rgb(25, 25, 25);
+    font-family: arial;
+  }
+  .move-btn {
+    margin: 10px;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+  }
+  .move-btn:hover {
+    background-color: #f9f6f6;
+  }
+  #resultMove {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .rstScore-btn, .auto-btn {
+    background-color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .yes, .no {
+    background-color: white;
+    padding: 3px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .confirm {
+    font-weight: bold;
+  }
